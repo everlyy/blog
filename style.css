@@ -1,0 +1,70 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+
+.topbar {
+	background-color: black;
+	color: white;
+	font-size: 12pt;
+	padding: 3px;
+	margin-bottom: 20px;
+}
+
+.topbar * {
+	display: inline-block;
+}
+
+.topbar p {
+	margin: 0;
+}
+
+.topbar .links {
+	float: right;
+}
+
+.topbar a {
+	color: white;
+	text-decoration: none;
+}
+
+.topbar a:visited {
+	color: white;
+}
+
+.content {
+	margin: 5px auto;
+	text-align: center;
+	width: 60%;
+	border: 1px solid black;
+}
+
+.content h3 {
+	color: #ff80ff;
+}
+
+.content form {
+	color: black;
+}
+
+.content input,textarea {
+	margin-bottom: 10px;
+	border: 1px solid black;
+	margin-top: 2px;
+}
+
+.content form input:last-child {
+	border: 1px solid black;
+	background-color: white;
+	color: #ff08ff;
+}
+
+.content a {
+	color: #ff08ff;
+	text-decoration: none;
+}
+
+.content a:visited {
+	color: #ff08ff;
+}
