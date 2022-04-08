@@ -1,5 +1,6 @@
 # blog
-Little blog website for yourself
+Little blog website for yourself. \
+I'm not the best at PHP or databases or whatever, this was just a project to learn the both :-]
 
 # Setting up
  * Install a webserver, php, and the php sqlite3 extension. For debian this is `apache2 php php-sqlite3` 
