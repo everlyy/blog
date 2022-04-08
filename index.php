@@ -14,7 +14,8 @@ function getposts() {
 		printf("</div>");
 		printf("<br>");
 	}
-	printf("<a href='blog.db' download>blog.db</a>");
+	printf("<p>if you want to see all the posts you can download the full database <a href='blog.db' download>here</a></p>");
+	printf("");
 }
 ?>
 
@@ -28,7 +29,7 @@ function getposts() {
 	<div class="topbar">
 		<p>everly's blog thing</p>
 		<div class="links">
-			<a href="upload.php">create post</a>
+			<a href="panel.php">manage posts</a>
 		</div>
 	</div>
 	<div class="content">
