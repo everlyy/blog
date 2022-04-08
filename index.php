@@ -8,9 +8,9 @@ function getposts() {
 		printf("<span class='post_id'>[%d] </span>", $post["id"]);
 		printf("<span class='post_title'>%s</span>", $post["title"]);
 		printf("</h3>");
-		printf("<p class='post_content'>%s</p>", $post["content"]);
+		printf("<p class='post_content'>%s</p>", str_replace("\n", "<br>", $post["content"]));
 		$date = new DateTime($post["date"]);
-		printf("<p class='post_date'>%s</p>",  $date->format("d/m/Y"));
+		printf("<b><p class='post_date'>%s</p></b>",  $date->format("d/m/Y"));
 		printf("</div>");
 		printf("<br>");
 	}
